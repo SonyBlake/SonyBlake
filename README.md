@@ -1,5 +1,6 @@
 - 👋 Hi, I’m Kuba
 - 🌱 I’m currently learning JS
+- ✨ Future Frontend Development 
 
 
 <!---
