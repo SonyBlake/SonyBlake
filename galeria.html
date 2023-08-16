@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kozie Sery</title>
+
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div>
+          <h2 class="mainHeader">
+            <span class="highlitHeader">
+              <a href="koza.html" class="link">Henrykowskie</a></span
+            >
+            Kozie Sery
+          </h2>
+          <nav>
+            <ul class="menu">
+              <li><a href="koza.html"> Kozie Sery</a></li>
+              <li><a class="active" href="galeria.html"> Galeria</a></li>
+              <li><a href="Dostarczamy.html">Dostarczamy</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <main>
+        <section class="imgSection" aria-label="Newest Photos">
+          <div class="carousel" data-carousel>
+            <ul data-slides>
+              <li class="slide" data-active>
+                <img src="image/saanen1.jpg" alt="Saanen Goat1" />
+              </li>
+              <li class="slide">
+                <img src="image/saanen5.jpg" alt="Saanen Goat3" />
+              </li>
+              <li class="slide">
+                <img src="image/saanen4.jpg" alt="Saanen Goat4" />
+              </li>
+            </ul>
+            <button class="carousel-button prev" data-carousel-button="prev">
+              &#8656;
+            </button>
+            <button class="carousel-button next" data-carousel-button="next">
+              &#8658;
+            </button>
+          </div>
+        </section>
+      </main>
+      <footer class="wrapper">
+        <div>
+          <p class="info">INFORMACJE:</p>
+          <ul class="footerList">
+            <li><a href="FAQ.html">FAQ</a></li>
+            <li><a href="koza.html">Kozie Sery</a></li>
+            <li><a href="galeria.html">Galeria</a></li>
+            <li><a href="Dostarczamy.html">Dostarczamy</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="info">KONTAKT:</p>
+
+          <ul class="footerList">
+            <li>
+              <img class="contactIMG" src="mail.webp" alt="Adres kontaktowy" />
+              <a href="mailto:someone@example.com">someone@example.com</a>
+            </li>
+            <li>
+              <img
+                class="contactIMG"
+                src="mobile_t.webp"
+                alt="telefon kontaktowy"
+              />
+              <a href="tel:+47525252525">+47525252525</a>
+            </li>
+            <li>
+              <img
+                class="contactIMG"
+                src="whatsapp_t.webp"
+                alt="whatsapp kontakt"
+              />
+              <a href="https://wa.me/47525252525">47525252525</a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+    <script src="ass.js"></script>
+  </body>
+</html>
