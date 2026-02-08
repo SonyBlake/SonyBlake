@@ -1,7 +1,6 @@
 - 👋 Hi, I’m Kuba
-- 🌱 I’m currently learning JS
-- ✨ Future Frontend Development 
-
+- 🌱 I’m currently learning Python/ SQL
+- ✨ Future BiG Data Engineer
 
 <!---
 SonyBlake/SonyBlake is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
